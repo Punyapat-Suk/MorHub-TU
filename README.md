@@ -1,2 +1,2 @@
 # MorHub-
-This is a project we work to complete out database laboratory 
+MorHub TU is a web app for booking outpatient appointments at Thammasat University Hospital. Patients search for doctors and request time slots. An admin forwards requests to the hospital, and hospital staff confirm bookings and send results and prescriptions back to the patient. It’s built with Node.js, Express and MySQL, and uses a trigger to block overbooked slots, a stored procedure to confirm appointments, role-based access for patients, staff and admins, bcrypt-hashed passwords, and parameterized queries to prevent SQL injection. Developed as the final project for CSS326 Database Programming Laboratory at SIIT.
